@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-color: #F0F2F5;
+}
+
+.info {
+    margin-top: -70px;
+
+    width: 50%;
+    right: 0;
+
+}
+
+
+
+@font-face {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    src: url(./fonts/SF-Pro-Display-Regular.ttf), format('truetype');
+}
+.info img{
+    margin-left: 6%;
+   
+    width: 270px;
+    
+}
+.info h1 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 80%;
+    
+    margin: -10px 10% 0 10%;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.access {
+
+    display: grid;
+
+    text-align: center;
+    justify-items: center;
+
+}
+
+.access p {
+    margin-top: 35px;
+    width: 80%;
+}
+
+.form {
+    margin-right: 100px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px 1px rgb(212, 212, 212);
+    margin-right: 1%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 350px;
+
+}
+
+.login {
+
+    text-align: center;
+    display: grid;
+    width: 90%;
+}
+
+#email {
+    padding-left: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    border-color: rgb(230, 230, 230);
+
+
+    border-radius: 5px;
+    height: 50px;
+}
+
+#password {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 15px;
+    border: solid 1px rgb(201, 201, 201);
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#btn1 {
+    cursor: pointer;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    margin-top: 15px;
+    height: 50px;
+}
+
+#btn2 {
+    cursor: pointer;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #36a420;
+    margin-top: 15px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+a {
+    color: #1877f2;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+
+hr {
+    border-top: solid 1px rgb(201, 201, 201);
+
+
+    margin-top: 15px;
+}
+
+#email:hover {
+    border: #1877f2 solid 2px;
+}
+#password:hover{
+    border: #1877f2 solid 2px;
+}
+.language a{
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+}
+.fa-plus{
+    cursor: pointer;
+    color: gray;
+    border: solid 1px gray;
+    padding: 0 5px 0 5px;
+}
+    footer{
+        padding-top: 40px;
+        margin: 0 15% 0 15%;
+        
+        width: 70%;
+        height: 200px;
+    }
+   
+    nav a{
+        color: gray;
+        font-weight: normal;
+        font-size: 12px;
+        margin-right: 20px;
+        
+    }
+@media(max-width:898px) {
+    .container {
+        width: fit-content;
+
+        display: grid;
+        justify-items: center;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .info img {
+
+        text-align: center;
+        width: 50%;
+    }
+
+    #email {
+        border: solid 1px rgb(218, 217, 217);
+    }
+
+    #password {
+        border: solid 1px rgb(218, 217, 217);
+
+    }
+
+    .info h1 {
+        left: 0;
+
+        width: 60%;
+        margin: -10px 20% 0 20%;
+    }
+
+    .info {
+        left: 0;
+
+        width: 100%;
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+    footer{
+        padding-top: 150px;
+    }
+}
